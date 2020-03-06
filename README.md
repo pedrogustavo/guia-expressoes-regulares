@@ -1,5 +1,7 @@
 # guia-expressoes-regulares
-Guia de uso para expressões regulares com Javascript
+Guia de uso para expressões regulares com Javascript.
+
+Esse guia foi criado, usando por base a série de artigos: https://medium.com/engenharia-noalvo/express%C3%B5es-regulares-em-javascript-libere-o-poder-oculto-na-pr%C3%A1tica-parte-1-2e22910f7af2
 
 ```js
 // Construtor
