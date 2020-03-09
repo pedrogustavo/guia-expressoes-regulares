@@ -56,3 +56,14 @@ function removeEmojis (string) {
   return string.replace(regex, '')
 }
 ```
+
+
+### Flags / modifiers
+Sinalizadores para indicar um comportamento diferente das expressões. (ficam depois da barra)  
+
+
+`g` (global): tira o limite de uma expressão ter apenas o primeiro match  
+`m` (multiline): cada linha considera separadamente âncoras de começo e fim (^$)  
+`i` (insensitive): ignora diferenças entre letras caixa alta e baixa  
+`y` (sticky): mantém o valor da propriedade lastIndex de instancias do objeto RegExp  
+`u` (unicode): habilita códigos Unicode dentro da expressão  
